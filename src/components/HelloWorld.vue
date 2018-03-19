@@ -1,5 +1,8 @@
 <template>
   <div>
+    <div class="hello">
+      <h1>{{ msg }}</h1>
+    </div>
     <b-container>
       <b-row>
         <b-col>
