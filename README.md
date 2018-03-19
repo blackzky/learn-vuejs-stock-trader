@@ -10,6 +10,9 @@
  - [link](https://stackoverflow.com/questions/40190524/how-to-set-favicon-ico-properly-on-vue-js-webpack-project)
 * Integrate bootstrap and vue - [link](https://github.com/bootstrap-vue/bootstrap-vue/issues/145)
 
+# TODO
+- Migrate to vue-test-utils for unit test - [link](https://github.com/vuejs/vue-test-utils) **Currently on beta**
+
 ## Build Setup
 
 ``` bash
