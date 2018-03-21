@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import Home from '@/components/Home';
 import Portfolio from '@/components/Portfolio';
+import Stocks from '@/components/Stocks';
 
 Vue.use(Router);
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/portfolio',
       name: 'Portfolio',
       component: Portfolio 
+    },
+    {
+      path: '/stocks',
+      name: 'Stocks',
+      component: Stocks 
     }
   ]
 });

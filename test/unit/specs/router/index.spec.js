@@ -2,10 +2,12 @@ import Vue from 'vue';
 import router from '@/router/index';
 import Home from '@/components/Home';
 import Portfolio from '@/components/Portfolio';
+import Stocks from '@/components/Stocks';
 
 const EXPECTED_ROUTES = [
     { path: '/', component: Home },
-    { path: '/portfolio', component: Portfolio }
+    { path: '/portfolio', component: Portfolio },
+    { path: '/stocks', component: Stocks }
 ];
 
 describe('Router', () => {
