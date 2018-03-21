@@ -5,8 +5,11 @@
 </template>
 
 <script>
+import Header from '@/components/common/Header';
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: { Header }
 }
 </script>
 

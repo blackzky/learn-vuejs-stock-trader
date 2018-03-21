@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import Stocks from '@/components/Stocks';
+import Stocks from '@/components/pages/Stocks';
 
 describe('Stocks.vue', () => {
     it('should have a name', () => {

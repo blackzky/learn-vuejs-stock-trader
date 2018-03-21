@@ -1,8 +1,8 @@
 import Vue from 'vue';
 import router from '@/router/index';
-import Home from '@/components/Home';
-import Portfolio from '@/components/Portfolio';
-import Stocks from '@/components/Stocks';
+import Home from '@/components/pages/Home';
+import Portfolio from '@/components/pages/Portfolio';
+import Stocks from '@/components/pages/Stocks';
 
 const EXPECTED_ROUTES = [
     { path: '/', component: Home },
