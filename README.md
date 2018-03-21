@@ -11,8 +11,13 @@
 * Integrate bootstrap and vue - [link](https://github.com/bootstrap-vue/bootstrap-vue/issues/145)
 
 ## Issues
-- **ISSUE** ERROR LOG: '[Vue warn]: Error in render: "TypeError: undefined is not an object (evaluating 'route.matched')"
-    - [Solution](https://github.com/vuejs-templates/webpack/issues/709)
+- **ISSUE** `ERROR LOG: '[Vue warn]: Error in render: "TypeError: undefined is not an object (evaluating 'route.matched')"`
+    - **Details** : 
+        ```
+        Error is shown in the unit test console when `new Vue(App).$mount()` from `App.spec.js` is used.
+        ```
+    - **Cause**: The router (dependency) is not loaded properly
+    - Solution: [link](https://github.com/vuejs-templates/webpack/issues/709)
 
 # TODO
 - Migrate to vue-test-utils for unit test - [link](https://github.com/vuejs/vue-test-utils) **Currently on beta**
