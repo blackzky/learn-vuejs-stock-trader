@@ -3,7 +3,7 @@ import App from '@/App';
 import router from '@/router/index';
 import Header from '@/components/common/Header';
 
-const EXPECTED_COMPONENTS = ['router-view', 'router-link', Header.name];
+const EXPECTED_COMPONENTS = ['router-view', 'router-link', Header.tag];
 
 describe('App.vue', () => {
   it('should have a name', () => {
@@ -18,4 +18,6 @@ describe('App.vue', () => {
       expect(vm.$options.components).to.have.property(EXPECTED_COMPONENTS[i]);
     }
   });
+
+  // should contain rendered "header"
 });

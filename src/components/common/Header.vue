@@ -6,6 +6,7 @@
 
 <script>
 export default {
+  tag: 'app-header',
   name: 'Header'
 }
 </script>

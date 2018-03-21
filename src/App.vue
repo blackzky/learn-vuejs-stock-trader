@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <app-header />
     <router-view/>
   </div>
 </template>
@@ -7,9 +8,12 @@
 <script>
 import Header from '@/components/common/Header';
 
+let components = {};
+components[Header.tag] = Header;
+
 export default {
   name: 'App',
-  components: { Header }
+  components: components
 }
 </script>
 
