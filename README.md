@@ -18,6 +18,8 @@
         ```
     - **Cause**: The router (dependency) is not loaded properly
     - Solution: [link](https://github.com/vuejs-templates/webpack/issues/709)
+- **ISSUE** `Module not found: Error: Can't resolve 'vue-server-renderer'`
+    - Possible solution: [link](https://github.com/vuejs/vue-test-utils/issues/440)
 
 # TODO
 - Migrate to vue-test-utils for unit test - [link](https://github.com/vuejs/vue-test-utils) **Currently on beta**
