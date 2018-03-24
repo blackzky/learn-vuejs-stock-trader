@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <h1>Header</h1>
-  </div>
+  <v-toolbar app>
+    <v-toolbar-title>Stock Trader</v-toolbar-title>
+  </v-toolbar>
 </template>
 
 <script>

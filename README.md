@@ -5,10 +5,9 @@
 ## Resources
 
 * Vue.js Extension Pack for Visual Studio - [link](https://marketplace.visualstudio.com/items?itemName=mubaidr.vuejs-extension-pack)
-* Bootstrap + Vue - [link](https://bootstrap-vue.js.org/)
 * How to set favicon.ico properly on vue.js webpack project?
  - [link](https://stackoverflow.com/questions/40190524/how-to-set-favicon-ico-properly-on-vue-js-webpack-project)
-* Integrate bootstrap and vue - [link](https://github.com/bootstrap-vue/bootstrap-vue/issues/145)
+* Material Design + Vue - [link](https://vuetifyjs.com/en/)
 
 ## Issues
 - **ISSUE** `ERROR LOG: '[Vue warn]: Error in render: "TypeError: undefined is not an object (evaluating 'route.matched')"`

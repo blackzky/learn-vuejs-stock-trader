@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <h1>Portfolio</h1>
-  </div>
+  <v-layout>
+    <v-flex>
+      <v-card>
+        <v-card-title>
+          <h1>Portfolio</h1>
+        </v-card-title>
+      </v-card>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
