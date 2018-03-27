@@ -4,6 +4,7 @@ import App from '@/App';
 import Header from '@/components/common/Header';
 
 describe('App.vue', () => {
+
   it('should have a name', () => {
     expect(App.name).to.equal('App');
   });
@@ -11,7 +12,7 @@ describe('App.vue', () => {
   it('should have the necessary components', () => {
     const wrapper = shallow(App);
 
-    expect(wrapper.contains(Header)).to.true;
+    expect(wrapper.find(Header).exists()).to.true;
   });
 
 });
